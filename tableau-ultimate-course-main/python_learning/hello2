@@ -1,0 +1,9 @@
+files = ["report.csv, DATA.csv, final.TXT"]
+for file in files:
+    file = file.strip().lower().replace(".txt",'.csv')
+    print(f"Processing {file}")
+
+emails= ["chiomestherpgmail.com"]
+for email in emails:
+    email = email.replace("p", "@")
+    print("good email", email)
